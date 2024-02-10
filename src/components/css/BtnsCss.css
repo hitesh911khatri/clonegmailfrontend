@@ -1,0 +1,30 @@
+.compose-btn {
+    display: grid;
+    grid-template-columns: 35% auto;
+    width: auto;
+    align-items: center;
+    background-color: hsl(204deg 100% 88%);
+    padding: 6px 40px 6px 20px;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+    cursor: pointer;
+}
+
+.newMail-head {
+    padding: 10px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.receiptant,
+.subject,
+.message {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.newMail-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

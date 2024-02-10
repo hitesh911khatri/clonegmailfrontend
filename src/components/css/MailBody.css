@@ -1,0 +1,39 @@
+.body-container {
+    border-radius: 15px;
+}
+
+@media(min-width:700px) {
+    .topBar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        padding: 0px 10px;
+        border-bottom: 1px solid lightgray;
+    }
+}
+
+.topBar-right>span {
+    font-size: 13px;
+    color: gray
+}
+
+@media(min-width:700px) {
+    .mailItem-container {
+        padding: 5px 10px;
+        cursor: pointer;
+        display: grid;
+        grid-template-columns: min-content min-content 120px auto max-content;
+        align-items: center;
+    }
+}
+
+.sub-msg {
+    display: flex;
+    align-items: center;
+}
+
+.unread {
+    color: black;
+    font-weight: bolder;
+}

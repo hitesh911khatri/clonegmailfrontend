@@ -1,0 +1,7 @@
+.sideIcons-container {
+    border-left: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
